@@ -7,7 +7,7 @@ from statsmodels.graphics.tsaplots import plot_pacf
 from statsmodels.tsa.arima_model import ARIMA
 import statsmodels.api as sm
 
-data = pd.read_csv("Dataset.csv")
+data = pd.read_csv("Dataset.csv")#Reading the CSV
 print(data.head())
 
 data["Date"] = pd.to_datetime(data["Date"], 
