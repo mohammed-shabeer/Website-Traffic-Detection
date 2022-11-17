@@ -27,7 +27,7 @@ fig = plt.figure()
 fig = result.plot()  
 fig.set_size_inches(15, 10)
 
-pd.plotting.autocorrelation_plot(data["Views"])
+pd.plotting.autocorrelation_plot(data["Views"])#plotting the graph
 
 plot_pacf(data["Views"], lags = 100)
 
