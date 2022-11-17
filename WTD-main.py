@@ -43,5 +43,5 @@ print(predictions)
 
 data["Views"].plot(legend=True, label="Training Data", 
                    figsize=(15, 10))
-predictions.plot(legend=True, label="Predictions")
+predictions.plot(legend=True, label="Predictions")#printing the predictions
 
